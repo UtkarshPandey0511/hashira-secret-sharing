@@ -1,12 +1,13 @@
 # Hashira Secret Sharing Solution
 
-## Description
-Solves polynomial secret sharing using matrix method with Gaussian elimination.
+Matrix method implementation for polynomial secret sharing using Lagrange interpolation.
+
+## Files
+- `HashiraSecretSharing.java` - Main solution
+- `pom.xml` - Maven dependencies
+- `test1.json` - Test case 1
+- `test2.json` - Test case 2
 
 ## Usage
 ```bash
-# Compile
-mvn compile
-
-# Run
-java -cp target/classes:~/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar HashiraSecretSharing input.json
+java HashiraSecretSharing <json-file>
